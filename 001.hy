@@ -6,9 +6,9 @@
 ;Find the sum of all the multiples of 3 or 5 below 1000.
 
 (defn problem []
-	(sum (list-comp x [x (range 1000)] (or (= (% x 3) 0) (= (% x 5) 0))))
+    (sum (list-comp x [x (range 1000)] (or (= (% x 3) 0) (= (% x 5) 0))))
 )
 
 (if (= __name__ "__main__")
-	(print (problem))
+    (print (problem))
 )
